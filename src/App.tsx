@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import quotes from "./assets/quotes.json";
-import {FaTwitter, FaQuoteLeft, FaQuoteRight} from 'react-icons/fa';
+import {FaQuoteLeft, FaQuoteRight} from 'react-icons/fa';
+import { FaXTwitter } from "react-icons/fa6";
 import './App.css';
 
 interface Quote { 
@@ -44,15 +45,16 @@ function App() {
         </div>
         <div className="buttons">
           <a 
-            href={""} 
+            href={"https://x.com/"} 
             id="tweet-quote" 
+            target='_blank'
             style={{
               backgroundColor: randomColor, 
               transition,
               marginRight: "10px"
               }}
           >
-            <FaTwitter color="white" />
+            <FaXTwitter  color="white" />
           </a>
           <button 
             id="new-quote" 
