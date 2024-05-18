@@ -1,0 +1,38 @@
+
+Getting Started with Nope and vite react
+check --version of node and npm
+go to vitereact, get the lates link and paste in the paste in the terminal
+name the project name, select framework, variant, then type the instruction given (cd "name", npm install, npm run dev
+Go to the generated folder of the Terminal
+
+
+index.css: delete all but root 
+app.css: delete all 
+app.tsx: delete all the return boilerplate
+
+create a function App() that generate random quote and renders the quote in the host
+import quotes.json
+declare interface quote with keyname of quote and author
+declare get randomquote using math.random
+
+//this should generate random quotes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
